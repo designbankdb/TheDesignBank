@@ -1,6 +1,11 @@
-/*
-Theme Name: My First WordPress Theme
-*/
+@font-face {
+  font-family: 'DMSansRegular';
+  src: url('Assets/DMSans-Regular.ttf');
+}
+
+body {
+  font-family: 'DMSansRegular', sans-serif;
+}
 
 .header {
   background: url('Assets/Header Image.jpg') no-repeat top center ;
