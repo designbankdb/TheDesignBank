@@ -29,6 +29,22 @@ body {
 .header {
   background: url('Assets/Header Image Mobile.jpg') no-repeat top center;
   background-size: cover;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
+}
+
+.logo {
+  max-width: 80%;
+  height: auto;
+}
+
+
+@media (min-width: 768px) {
+  .header {
+    background: url('Assets/Header Image.jpg') no-repeat top center;
+  }
+  
+  .logo {
+    max-width: 50%
+  }
 }

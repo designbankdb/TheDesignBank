@@ -10,17 +10,17 @@
   
   <body>
     <div class="header mb-5">
-      <nav class="nav-container position-relative d-flex flex-row justify-content-between pt-3 mx-3">
+      <nav class="nav-container position-relative d-flex flex-row justify-content-between pt-5 mx-3">
         <a class="nav-links home <?php if(is_front_page()) { echo 'active';} ?>" href="<?php echo home_url(); ?>">Home</a>
         <a class="nav-links home <?php if(is_page(10)) { echo 'active';} ?>" href="<?php  echo get_page_link(10); ?>">Contact Us</a>
       </nav>
 
-      <div class="d-flex align-center w-100 h-100">
-        <img class="logo w-100 px-4" src="<?php echo get_template_directory_uri(); ?>/Assets/Print Bank Logo.svg" alt="logo">
+      <div class="d-flex align-items-center justify-content-center h-100">
+        <img class="w-100 logo" src="<?php echo get_template_directory_uri(); ?>/Assets/Print Bank Logo.svg" alt="logo">
       </div>
     </div>
 
-    <div class="container px-3 my-3 py-md-5 my-md-5 mx-md-3">
+    <div class="container px-3 my-3 p-md-5 my-md-3">
       <div class="row">
         <div class="col-md-4"><h3 class="col-md mb-4">About The Print Bank</h3></div>
         <div class="col-md-8">
@@ -37,7 +37,7 @@
       </article>
 
       <div class="mx-3 text-center pb-5">
-        <div class="md-row col">
+        <div class="d-flex row">
           <div class="col mb-3">
             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/Assets/Image 1.jpg" alt="logo image">
           </div>
