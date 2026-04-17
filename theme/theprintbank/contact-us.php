@@ -7,7 +7,7 @@
 </nav>
 
 <div class="container text-left">
-  <div class="row mb-md-3 mt-5">
+  <div class="row mb-md-3 mt-5 fs-6">
     <div class="col-md-6 order-1">    
       <article class="mx-2 pt-md-5"> 
         <p class="fw-normal fs-2">Contact Us</p>
@@ -23,9 +23,9 @@
           <a class="fs-3 text-dark contact-links" href="tel:01484 455554">01484 455554</a>
         </div>
 
-        <div class="py-3">
+        <div class="py-3 fs-5">
           <span class="fw-light">Address</span>
-          <p class="fs-5">
+          <p>
             The Print Bank,
             <br>
             Headrow House, 19 Old Leeds Rd,

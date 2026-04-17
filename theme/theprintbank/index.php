@@ -2,8 +2,8 @@
 
     <div class="header mb-5">
       <nav class="position-relative d-flex flex-row justify-content-between pt-5 mx-3">
-        <a class="nav-links home <?php if(is_front_page()) { echo 'active';} ?>" href="<?php echo home_url(); ?>">Home</a>
-        <a class="nav-links home <?php if(is_page(10)) { echo 'active';} ?>" href="<?php  echo get_page_link(10); ?>">Contact Us</a>
+        <a class="nav-links home-nav <?php if(is_front_page()) { echo 'active';} ?>" href="<?php echo home_url(); ?>">Home</a>
+        <a class="nav-links home-nav <?php if(is_page(10)) { echo 'active';} ?>" href="<?php  echo get_page_link(10); ?>">Contact Us</a>
       </nav>
 
       <div class="d-flex align-items-center justify-content-center h-100">
@@ -11,9 +11,9 @@
       </div>
     </div>
 
-    <div class="container px-3 my-3 p-md-5 my-md-3">
+    <div class="container my-3 p-md-5">
       <div class="row">
-        <div class="col-md-4"><h3 class="col-md mb-4">About The Print Bank</h3></div>
+        <div class="col-md-4"><h3 class="mb-4">About The Print Bank</h3></div>
         <div class="col-md-8">
           <p class="text-left mb-4">Based in West Yorkshire, The Print Bank is the home of all things print. With over 30 years of industry experience, our passionate team have fostered a craft that allows us to work alongside our clients to produce a perfect, bespoke final product.</p>
 
